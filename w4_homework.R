@@ -44,6 +44,10 @@ Join_GII <- WM %>%
             GIIcols,
             by= c('aff_iso' = 'iso_code'))
 
+library(usethis)
+use_github()
+
+
 #let's try to plot this on map
 Join_GII
 
